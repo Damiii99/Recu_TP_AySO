@@ -1,1 +1,3 @@
-# Recu_TP_AySO
+Nombre: Pablo Damian Rojas
+Comision: 116
+Turno: Mañana
