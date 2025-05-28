@@ -1,0 +1,216 @@
+grep -i ip Vagrantfile
+mkdir -p /c/os/vm
+cd /c/os/vm
+git clone https://github.com/upszot/UTN-FRA_SO_Vagrant.git
+cd UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant up
+vagrant ssh
+vagrant ssh
+mkdir /c/AySO
+cd /c/AySO
+echo 
+echo Este es mi primer archivo"
+echo "este es mi primer archivo" > ejemplo.txt
+git add .
+exit
+cd /c/AySO
+git init
+echo mi primer archivo > ejemplo.txt
+git add .
+git commit -m "primer commit"
+git config --global user.email "damiarojas22@gmail.com"
+git config --global user.name "Damiii99"
+git remote add origin https://github.com/Damiii99/AySO.git
+git branch
+git branch -M main
+git push -u origin main
+exit
+cd /c/os/vm
+vagrant up
+vagrant ssh
+vagrant ssh
+mdkdir -p /c/os/vm
+mkdir -p /c/os/vm
+cd /c/os/vm
+git clone https://github.com/upszot/UTN-FRA_SO_Vagrant.git
+cd UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant up
+whoami
+pwd
+ls
+git clone https:/github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+ls
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+cd UTN-FRA_SO_Examenes
+ls
+./UTN-FRA_SO_Examenes/script_Precondiciones.sh
+cd UTN-FRA_SO_Examenes
+hostnamectl --help
+hostnamectl status
+vagrant box list
+cd ~
+git clone https://github.com/TU_USUARIO/Recu_TP_AySO.git
+cd Recu_TP_AySO
+[200~cd ~
+git clone https://github.com/TU_USUARIO/Recu_TP_AySO.git
+cd ~
+git clone https://github.com/Damiii99/Recu_TP_AySO.git
+cd Recu_TP_AySO
+sudo mkdir -p/PuntoA//{Grupo1,Grupo2,grupo3}
+whoami
+su
+apt update
+apt install sudo
+su 
+exit
+vagrant ssh -- -l root
+whoami
+cd /c/os/vm/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+ls
+vagrant up
+vagrant ssh -- -l root
+cd /c/os/vm/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant up
+v
+vagrant ssh
+cd /c/os/vm/UTN-FRA_SO_VagrantFiles/1_equipo
+cd /c/os/vm/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant up
+vagrant ssh
+vangrant ssh
+vagrant up
+vagrant ssh
+cd /c/os/vm/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant halt
+vagrant destroy -f
+cd ~
+rm -rf /c/Users/Damiii99/repogit
+rm -rf /c/Users/Damiii99/UTN-FRA_SO_Vagrant
+rm -rf /c/os/vm/
+mkdir -p /c/os/vm
+cd /c/os/vm
+git clone https://github.com/upszot/UTN-FRA_SO_Vagrant.git
+cd UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant up
+vagrant ssh
+exit
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_ed25519.pub
+sudo apt install git
+sudo apt install git
+git --version
+git clone git@github.com:Damiii99/AySO_recu.git
+cp README/AySO_Recu
+cp README/AySO_recu
+exit
+cd UTN_FRA_SO_Examenes
+cd UTN-FRA_SO_Examenes
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+.UTN-FRA_SO_Examenes/script_Precondicion.sh
+cd [200~./UTN-FRA_SO_Examenes/script_Precondicion.sh
+cd UTN-FRA_SO_Examenes
+. UTN-FRA_SO_Examenes/script_Precondicion.sh
+source ~/.bashrc
+vagrant up
+cd UTN-FRA_SO_Examenes/VagrantFiles/1_equipo
+exit
+cd /c/os/vm/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant halt
+vagrant destroy -f
+cd /c/
+mkdir -p os/vm
+cd os/vm
+cd UTN_FRA_SO_Vagrant/VagrantFiles/1_equipo
+git clone https://github.com./upszot/UTN-FRA_SO_Vagrant.git
+cd UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+vagrant up
+vagrant ssh -- -l root
+vagrant ssh -- -l root
+git push origgin main
+git status
+cd ~/Recu_TP_AySO
+git status
+git commit
+git push origin main
+git pull origin main --allow-unrelated-histories
+git push origin main
+git status
+git ls-tree --name-only main
+git add Punto_b.sh
+ls -l
+find . -name "Punto B"
+ls -l
+cat <<EOF > Punto_b.sh
+groupadd p1c1_2024_g1
+useradd -m -G p1c1_2024_g1 p1c1_2024_u1
+echo "p1c1_2024_u1:clave1 | chpasswd
+mkdir /datos
+chmod 750 /datos
+su - p1c1_2024_u1 -c "whoami > /datos/validar1-txt"
+EOF
+
+ls -l
+git add Punto_b.sh
+git commit -m "ADD: PUNTO B"
+git branch
+git push origin main
+cat <<EOF > Punto_c.sh
+groupadd p1c1_2024_todos
+useradd -m -g p1c1_2024_todos p1c1_2024_u2
+echo "p1c1_2024_u2:clave1" | chpasswd
+usermod -aG p1c1_2024_todos p1c1_2024_u1
+chgrp -R p1c1_2024_todos /datos
+chmod -R g+w /datos
+chmod o-x  /datos
+chmod o+r /datos
+su - p1c1_2024_u2 -c "id >> /datos/validar1.txt"
+EOF
+
+ls -l
+git add Punto_c.sh
+git commit -m "ADD: Punto C"
+git push origin main
+cat <<EOF > Punto_d.sh
+mkdir -p ~/Ejercicio_d/{rx,tx}
+for i in {1..20}; do
+mkdir ~/Ejercicio_d/rx/lotes_\$i
+mkdir ~/Ejercicio_d/tx/lotes_\$i
+done
+for i in {1..100}; do
+mkdir ~/Ejercicio_d/rx/extras_\$i
+done
+EOF
+
+ls -l
+git add Punto_d.sh
+git commit -m "ADD: Punto D"
+git push origin main
+cat <<EOF > Punto_e.sh
+#!/bin/bash
+mkdir ~/Punto_e
+free -h | grep Men | '{print \$2}' > ~/Punto_e/Filtro_Basico.txt
+lscpu | grep "Model name" >> ~/Punto_e/Filtro_Basico.txt
+lscpu | grep "CPU MHz" >> ~/Punto_e/Filtro_Basico.txt
+EOF
+
+git add Punto_e.sh
+git commit -m "ADD: Punto E"
+git push
+cat <<EOF > Punto_f.sh
+#!/bin/bash
+mkdir ~/Punto_f
+echo "IP_Publica=\$(curl -s ifconfig.me" > ~/Punto_f/Filtro_Avanzado.txt
+echo "Fercha=\$(date)" >> ~/Punto_f/Filtro_Avanzado.txt
+EOF
+
+git add Punto_f.sh
+git commit -m "ADD: Punto F"
+git push
+history -a
